@@ -6,7 +6,7 @@ import workStyles from './pageStyles/work.module.scss';
 const WorkPage = () => (
   <>
     <div className={workStyles.container}>
-      <hr />
+      <hr className={workStyles.hr} />
       <h1 className={workStyles.title}>Work</h1>
       <Project />
     </div>

@@ -9,3 +9,23 @@
 .title{
   text-decoration: underline;
 }
+.icons{
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin:20px auto;
+  div{
+    width: 32px;
+    align-self: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+}
+.hr {
+  border-bottom: 3px black solid;
+  margin: 120px auto;
+  width: 66%;
+}
+
+
