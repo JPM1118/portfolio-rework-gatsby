@@ -30,6 +30,9 @@ const Image = (props) => (
         seasonalSupperImage: file(relativePath:{ eq: "seasonalSupperSs.JPG" }) {
           ...workImg
         },
+        ticTacToeImage: file(relativePath:{ eq: "ticTacToeSs.JPG" }) {
+          ...workImg
+        },
         githubImage: file(relativePath:{ eq: "github.png"}){
           ...iconImg
         },

@@ -22,8 +22,12 @@ const TitlePage = () => (
           Web Developer
         </h2>
         <div className={titleStyles.nav}>
-          <div className={titleStyles.navItem}>Work</div>
-          <div className={titleStyles.navItem}>Contact</div>
+          <a href="#work">
+            <div className={titleStyles.navItem}>Work</div>
+          </a>
+          <a href="#contact">
+            <div className={titleStyles.navItem}>Contact</div>
+          </a>
         </div>
       </div>
     </div>
