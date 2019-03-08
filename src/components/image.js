@@ -27,6 +27,9 @@ const Image = (props) => (
         isbtImage: file(relativePath:{ eq: "isbtss.JPG" }) {
           ...workImg
         },
+        seasonalSupperImage: file(relativePath:{ eq: "seasonalSupperSs.JPG" }) {
+          ...workImg
+        },
         githubImage: file(relativePath:{ eq: "github.png"}){
           ...iconImg
         },
