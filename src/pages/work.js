@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Project from '../components/project';
 import workStyles from './pageStyles/work.module.scss';
 
-const WorkPage = () => {
+const WorkPage = (props) => {
   const data = useStaticQuery(graphql`
   query ProjectQuery {
     allWorkJson{
@@ -28,7 +28,7 @@ const WorkPage = () => {
     <>
       <div className={workStyles.container}>
         <hr className={workStyles.hr} />
-        <h1 className={workStyles.title}>Work</h1>
+        <h1 className={workStyles.title} id={props._id}>Work</h1>
         {projects.map(project => {
           return <><Project key={project.node.project.name} project={project} /></>
 
