@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 import Project from '../components/project';
 import workStyles from './pageStyles/work.module.scss';
 
+
 const WorkPage = (props) => {
   const data = useStaticQuery(graphql`
   query ProjectQuery {

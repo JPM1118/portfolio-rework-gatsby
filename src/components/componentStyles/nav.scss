@@ -1,0 +1,85 @@
+@import '../../utils/mixins.scss';
+
+.bm-burger-button {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  right: 15px;
+  top: 15px;
+
+  @include large {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    right: 36px;
+    top: 36px;
+  }
+}
+
+.bm-burger-bars {
+  background: red;
+}
+
+.bm-burger-bars-hover {
+  background: #a90000;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm-menu {
+  background: black;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+}
+
+.bm-item {
+  display: inline-block;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+.navAnchor{
+  display: block;
+  height: 30px;
+  width: 60%;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  text-shadow: none;
+  background-image: none;
+  transition: all .7s ease-in-out;
+
+  &:hover{
+    width: 100%;
+    color: red;
+    font-size: 1.15rem;
+    border-bottom: 2px solid red;
+  }
+  &:focus{
+    outline: none;
+  }
+}

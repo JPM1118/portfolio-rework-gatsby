@@ -5,7 +5,7 @@ import Image from "../components/image"
 import titleStyles from './pageStyles/title.module.scss';
 
 const TitlePage = () => (
-  <div className={titleStyles.container}>
+  <div className={titleStyles.container} id="home">
     <div className={titleStyles.item1}>
       <div className={titleStyles.image}>
         <Image imgName="heroImage" />
