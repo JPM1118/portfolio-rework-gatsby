@@ -1,12 +1,15 @@
 @import '../../utils/mixins.scss';
 
 .container{
+  background-color: white;
   width: 100%;
   min-height: 100vh;
   display:flex;
   flex-wrap: wrap;
   position: relative;
-  margin-bottom: 120px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+  z-index:2000;
 }
 
 .item1{
