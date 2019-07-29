@@ -31,7 +31,7 @@ const WorkPage = (props) => {
         <hr className={workStyles.hr} />
         <h1 className={workStyles.title} id={props._id}>Work</h1>
         {projects.map(project => {
-          return <><Project key={project.node.project.name} project={project} /></>
+          return <div key={project.node.project.name}><Project project={project} /></div>
 
         })}
       </div>

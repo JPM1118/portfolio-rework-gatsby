@@ -1,6 +1,16 @@
 [
   {
     "project": {
+      "name": "ffa",
+      "title": "Fantasy Free Agent",
+      "imageName": "ffaImage",
+      "siteLink": "https://chrome.google.com/webstore/detail/fantasy-free-agent/kpehghblanjcpgafeoccpliiianffonp",
+      "githubLink": "https://github.com/JPM1118/FantasyFreeAgent",
+      "description": "An Express/Node REST API and a chrome extension that combines vanilla JS and React. Using data from the Yahoo API, an user can find out if a player is available in their Yahoo baseball league by pressing a keyboard shortcut on any website that contains MLB player names."
+    }
+  },
+  {
+    "project": {
       "name": "isbt",
       "title": "Interior Sources",
       "imageName": "isbtImage",
@@ -17,16 +27,6 @@
       "siteLink": "www.seasonalsupper.org",
       "githubLink": "https://github.com/JPM1118/seasonal-supper",
       "description": "Full stack project. React for front-end and a RESTful API constructed with Express/Mongoose/MongoDb. The goal of the project was to provide the user with in season produce for a selected state and month. Selecting an item from the group of produce  provides a list of recipes containing the item as an ingredient."
-    }
-  },
-  {
-    "project": {
-      "name": "ticTacToe",
-      "title": "Tic-Tac-Toe",
-      "imageName": "ticTacToeImage",
-      "siteLink": "https://jpm1118.github.io/tic-tac-toe/",
-      "githubLink": "https://github.com/JPM1118/tic-tac-toe",
-      "description": "A Tic-Tac-Toe game created with vanilla Javascript. The computer player plays squares based on the return of Minimax algorithm function."
     }
   }
 ]

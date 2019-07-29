@@ -22,13 +22,17 @@
   justify-content: center;
   width: 150px;
   margin:20px auto;
-  div{
+}
+.notAvailable{
+  margin: 5px;
+  font-weight: bold;
+}
+.siteLink{
     width: 32px;
     align-self: center;
     margin-right: 5px;
     margin-left: 5px;
     cursor: pointer;
-  }
 }
 .hr {
   border-bottom: 3px black solid;

@@ -8,14 +8,16 @@ import Work from './work';
 import Contact from './contact';
 import Nav from '../components/nav';
 import '../components/componentStyles/nav.scss';
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" keywords={['portfolio', 'software-developer']} />
-    <Nav pageWrapId={"page-wrap"} right />
-    <Title />
-    <Work _id="work" />
-    <Contact _id="contact" />
-  </Layout>
-)
+const IndexPage = () => {
+  return (
+    <Layout>
+      <SEO title="Home" keywords={['portfolio', 'software-developer']} />
+      <Nav isOpen={false} pageWrapId={"page-wrap"} right />
+      <Title />
+      <Work _id="work" />
+      <Contact _id="contact" />
+    </Layout>
+  )
+}
 
 export default IndexPage
