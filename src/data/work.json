@@ -14,7 +14,7 @@
       "name": "isbt",
       "title": "Interior Sources",
       "imageName": "isbtImage",
-      "siteLink": "www.interiorsourcesbtodd.com",
+      "siteLink": "https://www.interiorsourcesbtodd.com",
       "githubLink": "https://github.com/JPM1118/ISBT.com",
       "description": "A small business, static site developed with Gatsby.js. The design is focused on being user friendly, easy to navigate, and quickly digestible.The site provides product examples and an easy to use contact page to request samples and more information in order to get the sales process initiated."
     }
@@ -24,7 +24,7 @@
       "name": "seasonalSupper",
       "title": "Seasonal Supper",
       "imageName": "seasonalSupperImage",
-      "siteLink": "www.seasonalsupper.org",
+      "siteLink": "https://www.seasonalsupper.org",
       "githubLink": "https://github.com/JPM1118/seasonal-supper",
       "description": "Full stack project. React for front-end and a RESTful API constructed with Express/Mongoose/MongoDb. The goal of the project was to provide the user with in season produce for a selected state and month. Selecting an item from the group of produce  provides a list of recipes containing the item as an ingredient."
     }
