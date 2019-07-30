@@ -6,7 +6,7 @@
       "imageName": "ffaImage",
       "siteLink": "https://chrome.google.com/webstore/detail/fantasy-free-agent/kpehghblanjcpgafeoccpliiianffonp",
       "githubLink": "https://github.com/JPM1118/FantasyFreeAgent",
-      "description": "An Express/Node REST API and a chrome extension that combines vanilla JS and React. Using data from the Yahoo API, an user can find out if a player is available in their Yahoo baseball league by pressing a keyboard shortcut on any website that contains MLB player names."
+      "description": "An Express/Node REST API and a chrome extension that contains a combination vanilla JS and React. Using data from the Yahoo API, an user can find out if a player is available in their Yahoo baseball league by pressing a keyboard shortcut on any website that contains MLB player names."
     }
   },
   {
